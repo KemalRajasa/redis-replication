@@ -1,27 +1,24 @@
 version: '3.8'
 
 services:
-  # --- 1. THE MASTER NODE ---
   redis-master:
     image: redis:7.0-alpine
     container_name: redis-master
-    command: redis-server --appendonly yes --requirepass "lab123" --masterauth "lab123" --protected-mode no
+    command: redis-server --appendonly yes --protected-mode no
     ports:
       - "6379:6379"
     networks:
       - redis-net
     healthcheck:
-      test: ["CMD", "redis-cli", "-a", "lab123", "ping"]
+      test: ["CMD", "redis-cli", "ping"]
       interval: 5s
       timeout: 3s
       retries: 5
 
-  # --- 2. THE REPLICA NODES ---
   redis-replica-1:
     image: redis:7.0-alpine
     container_name: redis-replica-1
-    # Replicaof menunjuk ke nama service master
-    command: redis-server --appendonly yes --replicaof redis-master 6379 --requirepass "lab123" --masterauth "lab123"
+    command: redis-server --appendonly yes --replicaof redis-master 6379 --protected-mode no
     ports:
       - "6380:6379"
     depends_on:
@@ -33,7 +30,7 @@ services:
   redis-replica-2:
     image: redis:7.0-alpine
     container_name: redis-replica-2
-    command: redis-server --appendonly yes --replicaof redis-master 6379 --requirepass "lab123" --masterauth "lab123"
+    command: redis-server --appendonly yes --replicaof redis-master 6379 --protected-mode no
     ports:
       - "6381:6379"
     depends_on:
@@ -42,8 +39,8 @@ services:
     networks:
       - redis-net
 
-  # --- 3. THE SENTINEL NODES (WATCHDOGS) ---
-  # Menggunakan image Bitnami agar konfigurasi Sentinel lebih mudah via Environment Variable
+  # --- INFRASTRUKTUR MONITORING (Sentinel - 3 Nodes) ---
+  
   sentinel-1:
     image: bitnami/redis-sentinel:latest
     container_name: sentinel-1
@@ -52,10 +49,9 @@ services:
       - REDIS_MASTER_PORT_NUMBER=6379
       - REDIS_MASTER_SET=mymaster
       - REDIS_SENTINEL_QUORUM=2
-      - REDIS_MASTER_PASSWORD=lab123
+      # Tidak ada password
     depends_on:
       - redis-master
-      - redis-replica-1
     ports:
       - "26379:26379"
     networks:
@@ -69,7 +65,6 @@ services:
       - REDIS_MASTER_PORT_NUMBER=6379
       - REDIS_MASTER_SET=mymaster
       - REDIS_SENTINEL_QUORUM=2
-      - REDIS_MASTER_PASSWORD=lab123
     depends_on:
       - redis-master
     networks:
@@ -83,7 +78,6 @@ services:
       - REDIS_MASTER_PORT_NUMBER=6379
       - REDIS_MASTER_SET=mymaster
       - REDIS_SENTINEL_QUORUM=2
-      - REDIS_MASTER_PASSWORD=lab123
     depends_on:
       - redis-master
     networks:
