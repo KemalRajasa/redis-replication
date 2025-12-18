@@ -9,7 +9,7 @@ MASTER_PORT = 6379
 REPLICA_HOST = 'localhost'
 REPLICA_PORT = 6380
 
-TOTAL_KEYS = 5000   
+TOTAL_KEYS = 20000   
 VALUE_SIZE = 51200
 
 # Variable Global (Shared Memory)
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     
     print("\nHASIL CONCURRENT TEST")
-    print(f"Total Sampel Cek : {total_reads}")
+    print(f"Total read       : {total_reads}")
     print(f"Total Lag (Miss) : {lag_counter}")
     
     if total_reads > 0:

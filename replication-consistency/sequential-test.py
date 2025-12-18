@@ -45,7 +45,7 @@ def run_experiment():
     write_duration = time.time() - start_write
     print(f"Selesai menulis {TOTAL_KEYS} keys dalam {write_duration:.4f} detik.")
 
-    #segera setelah operasi write ke master dimulai, operasi read replication dimulai
+    #segera setelah operasi write ke master selesai, operasi read replication dimulai
     print(f"membaca replica")
 
     # Dictionary untuk menyimpan skor tiap replica
