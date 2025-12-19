@@ -1,0 +1,62 @@
+[2025-12-19T12:43:41] Menjalankan skenario 2 dengan interval workload 0.20s.
+[2025-12-19T12:43:41] Menunggu quorum Sentinel (ckquorum)...
+[2025-12-19T12:43:42] Sentinel quorum siap: OK 3 usable Sentinels. Quorum and failover authorization can be reached
+[2025-12-19T12:43:42] Workload berjalan. Akan memicu failure dalam 10.0 detik.
+[2025-12-19T12:43:42] WRITE #1 OK -> redis-master
+[2025-12-19T12:43:43] WRITE #2 OK -> redis-master
+[2025-12-19T12:43:43] WRITE #3 OK -> redis-master
+[2025-12-19T12:43:44] WRITE #4 OK -> redis-master
+[2025-12-19T12:43:45] WRITE #5 OK -> redis-master
+[2025-12-19T12:43:45] WRITE #6 OK -> redis-master
+[2025-12-19T12:43:46] WRITE #7 OK -> redis-master
+[2025-12-19T12:43:47] WRITE #8 OK -> redis-master
+[2025-12-19T12:43:47] WRITE #9 OK -> redis-master
+[2025-12-19T12:43:48] WRITE #10 OK -> redis-master
+[2025-12-19T12:43:48] WRITE #11 OK -> redis-master
+[2025-12-19T12:43:49] WRITE #12 OK -> redis-master
+[2025-12-19T12:43:50] WRITE #13 OK -> redis-master
+[2025-12-19T12:43:50] WRITE #14 OK -> redis-master
+[2025-12-19T12:43:51] WRITE #15 OK -> redis-master
+[2025-12-19T12:43:52] WRITE #16 OK -> redis-master
+[2025-12-19T12:43:52] Mematikan redis-master untuk memicu failover...
+[2025-12-19T12:43:52] WRITE #17 OK -> redis-master
+[2025-12-19T12:43:53] WRITE #18 GAGAL -> redis-master | time="2025-12-19T12:43:53+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Error: Server closed the connection
+[2025-12-19T12:43:53] Menunggu Sentinel memilih master baru...
+[2025-12-19T12:44:02] WRITE #19 GAGAL -> redis-master | time="2025-12-19T12:43:53+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:04] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:44:09] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:44:11] WRITE #20 GAGAL -> redis-master | time="2025-12-19T12:44:03+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:20] WRITE #21 GAGAL -> redis-master | time="2025-12-19T12:44:11+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:21] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:44:29] WRITE #22 GAGAL -> redis-master | time="2025-12-19T12:44:21+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:36] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:44:38] WRITE #23 GAGAL -> redis-master | time="2025-12-19T12:44:29+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:42] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:44:51] WRITE #24 GAGAL -> redis-master | time="2025-12-19T12:44:42+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:44:52] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:02] WRITE #25 GAGAL -> redis-master | time="2025-12-19T12:44:52+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:03] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:11] WRITE #26 GAGAL -> redis-master | time="2025-12-19T12:45:02+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:13] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:18] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:20] WRITE #27 GAGAL -> redis-master | time="2025-12-19T12:45:11+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:28] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:32] WRITE #28 GAGAL -> redis-master | time="2025-12-19T12:45:24+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:39] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:42] WRITE #29 GAGAL -> redis-master | time="2025-12-19T12:45:33+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:44] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:45:52] WRITE #30 GAGAL -> redis-master | time="2025-12-19T12:45:44+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:45:54] Belum menemukan master baru, Sentinel masih melakukan failover...

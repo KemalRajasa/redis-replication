@@ -4,11 +4,17 @@ services:
   redis-master:
     image: redis:7.0-alpine
     container_name: redis-master
-    command: redis-server --appendonly yes --protected-mode no
+    command: >
+      redis-server
+        --appendonly yes
+        --protected-mode no
+        --save ""
     ports:
       - "6379:6379"
+    restart: unless-stopped
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.10
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 5s
@@ -18,71 +24,141 @@ services:
   redis-replica-1:
     image: redis:7.0-alpine
     container_name: redis-replica-1
-    command: redis-server --appendonly yes --replicaof redis-master 6379 --protected-mode no
+    command: >
+      redis-server
+        --appendonly yes
+        --replicaof redis-master 6379
+        --protected-mode no
+        --replica-priority 50
     ports:
       - "6380:6379"
+    restart: unless-stopped
     depends_on:
       redis-master:
         condition: service_healthy
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.11
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
   redis-replica-2:
     image: redis:7.0-alpine
     container_name: redis-replica-2
-    command: redis-server --appendonly yes --replicaof redis-master 6379 --protected-mode no
+    command: >
+      redis-server
+        --appendonly yes
+        --replicaof redis-master 6379
+        --protected-mode no
+        --replica-priority 100
     ports:
       - "6381:6379"
+    restart: unless-stopped
     depends_on:
       redis-master:
         condition: service_healthy
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.12
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
-  # --- INFRASTRUKTUR MONITORING (Sentinel - 3 Nodes) ---
-  
-  sentinel-1:
-    image: bitnami/redis-sentinel:latest
-    container_name: sentinel-1
-    environment:
-      - REDIS_MASTER_HOST=redis-master
-      - REDIS_MASTER_PORT_NUMBER=6379
-      - REDIS_MASTER_SET=mymaster
-      - REDIS_SENTINEL_QUORUM=2
-      # Tidak ada password
+  redis-client:
+    image: redis:7.0-alpine
+    container_name: redis-client
+    entrypoint: ["tail", "-f", "/dev/null"]
+    restart: unless-stopped
     depends_on:
-      - redis-master
+      redis-master:
+        condition: service_started
+      redis-replica-1:
+        condition: service_started
+      redis-replica-2:
+        condition: service_started
+    networks:
+      redis-net:
+        ipv4_address: 172.28.0.13
+
+  sentinel-1:
+    image: redis:7.0-alpine
+    container_name: sentinel-1
+    command: ["redis-server", "/etc/sentinel/sentinel.conf", "--sentinel"]
+    volumes:
+      - ./sentinel/node1:/etc/sentinel
+    depends_on:
+      redis-master:
+        condition: service_healthy
+      redis-replica-1:
+        condition: service_healthy
+      redis-replica-2:
+        condition: service_healthy
     ports:
       - "26379:26379"
+    restart: unless-stopped
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.20
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "26379", "PING"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
   sentinel-2:
-    image: bitnami/redis-sentinel:latest
+    image: redis:7.0-alpine
     container_name: sentinel-2
-    environment:
-      - REDIS_MASTER_HOST=redis-master
-      - REDIS_MASTER_PORT_NUMBER=6379
-      - REDIS_MASTER_SET=mymaster
-      - REDIS_SENTINEL_QUORUM=2
+    command: ["redis-server", "/etc/sentinel/sentinel.conf", "--sentinel"]
+    volumes:
+      - ./sentinel/node2:/etc/sentinel
     depends_on:
-      - redis-master
+      redis-master:
+        condition: service_healthy
+      redis-replica-1:
+        condition: service_healthy
+      redis-replica-2:
+        condition: service_healthy
+    restart: unless-stopped
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.21
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "26379", "PING"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
   sentinel-3:
-    image: bitnami/redis-sentinel:latest
+    image: redis:7.0-alpine
     container_name: sentinel-3
-    environment:
-      - REDIS_MASTER_HOST=redis-master
-      - REDIS_MASTER_PORT_NUMBER=6379
-      - REDIS_MASTER_SET=mymaster
-      - REDIS_SENTINEL_QUORUM=2
+    command: ["redis-server", "/etc/sentinel/sentinel.conf", "--sentinel"]
+    volumes:
+      - ./sentinel/node3:/etc/sentinel
     depends_on:
-      - redis-master
+      redis-master:
+        condition: service_healthy
+      redis-replica-1:
+        condition: service_healthy
+      redis-replica-2:
+        condition: service_healthy
+    restart: unless-stopped
     networks:
-      - redis-net
+      redis-net:
+        ipv4_address: 172.28.0.22
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "26379", "PING"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
 networks:
   redis-net:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24

@@ -1,0 +1,218 @@
+[2025-12-19T12:49:39] Menjalankan skenario 2 dengan interval workload 0.20s.
+[2025-12-19T12:49:39] Menunggu quorum Sentinel (ckquorum)...
+[2025-12-19T12:49:39] Sentinel quorum siap: OK 3 usable Sentinels. Quorum and failover authorization can be reached
+[2025-12-19T12:49:39] Workload berjalan. Akan memicu failure dalam 10.0 detik.
+[2025-12-19T12:49:40] WRITE #1 GAGAL -> redis-master | time="2025-12-19T12:49:40+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:40] WRITE #2 GAGAL -> redis-master | time="2025-12-19T12:49:40+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:41] WRITE #3 GAGAL -> redis-master | time="2025-12-19T12:49:41+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:41] WRITE #4 GAGAL -> redis-master | time="2025-12-19T12:49:41+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:42] WRITE #5 GAGAL -> redis-master | time="2025-12-19T12:49:42+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:42] WRITE #6 GAGAL -> redis-master | time="2025-12-19T12:49:42+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:43] WRITE #7 GAGAL -> redis-master | time="2025-12-19T12:49:43+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:43] WRITE #8 GAGAL -> redis-master | time="2025-12-19T12:49:43+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:44] WRITE #9 GAGAL -> redis-master | time="2025-12-19T12:49:44+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:44] WRITE #10 GAGAL -> redis-master | time="2025-12-19T12:49:44+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:45] WRITE #11 GAGAL -> redis-master | time="2025-12-19T12:49:45+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:45] WRITE #12 GAGAL -> redis-master | time="2025-12-19T12:49:45+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:46] WRITE #13 GAGAL -> redis-master | time="2025-12-19T12:49:46+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:46] WRITE #14 GAGAL -> redis-master | time="2025-12-19T12:49:46+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:47] WRITE #15 GAGAL -> redis-master | time="2025-12-19T12:49:47+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:47] WRITE #16 GAGAL -> redis-master | time="2025-12-19T12:49:47+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:48] WRITE #17 GAGAL -> redis-master | time="2025-12-19T12:49:48+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:48] WRITE #18 GAGAL -> redis-master | time="2025-12-19T12:49:48+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:49] WRITE #19 GAGAL -> redis-master | time="2025-12-19T12:49:49+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:49] WRITE #20 GAGAL -> redis-master | time="2025-12-19T12:49:49+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:49] Mematikan redis-master untuk memicu failover...
+[2025-12-19T12:49:50] WRITE #21 GAGAL -> redis-master | time="2025-12-19T12:49:50+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:50] WRITE #22 GAGAL -> redis-master | time="2025-12-19T12:49:50+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:50] Menunggu Sentinel memilih master baru...
+[2025-12-19T12:49:51] WRITE #23 GAGAL -> redis-master | time="2025-12-19T12:49:51+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:56] WRITE #24 GAGAL -> redis-master | time="2025-12-19T12:49:56+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:56] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:49:56] WRITE #25 GAGAL -> redis-master | time="2025-12-19T12:49:56+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:57] WRITE #26 GAGAL -> redis-master | time="2025-12-19T12:49:57+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:57] WRITE #27 GAGAL -> redis-master | time="2025-12-19T12:49:57+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:58] WRITE #28 GAGAL -> redis-master | time="2025-12-19T12:49:58+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:49:58] WRITE #29 GAGAL -> redis-master | time="2025-12-19T12:49:58+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:01] WRITE #30 GAGAL -> redis-master | time="2025-12-19T12:50:01+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:01] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:01] WRITE #31 GAGAL -> redis-master | time="2025-12-19T12:50:01+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:02] WRITE #32 GAGAL -> redis-master | time="2025-12-19T12:50:02+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:02] WRITE #33 GAGAL -> redis-master | time="2025-12-19T12:50:02+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:03] WRITE #34 GAGAL -> redis-master | time="2025-12-19T12:50:03+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:03] WRITE #35 GAGAL -> redis-master | time="2025-12-19T12:50:03+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:06] WRITE #36 GAGAL -> redis-master | time="2025-12-19T12:50:06+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:07] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:07] WRITE #37 GAGAL -> redis-master | time="2025-12-19T12:50:07+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:07] WRITE #38 GAGAL -> redis-master | time="2025-12-19T12:50:07+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:08] WRITE #39 GAGAL -> redis-master | time="2025-12-19T12:50:08+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:08] WRITE #40 GAGAL -> redis-master | time="2025-12-19T12:50:08+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:09] WRITE #41 GAGAL -> redis-master | time="2025-12-19T12:50:09+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:12] WRITE #42 GAGAL -> redis-master | time="2025-12-19T12:50:12+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:12] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:12] WRITE #43 GAGAL -> redis-master | time="2025-12-19T12:50:12+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:13] WRITE #44 GAGAL -> redis-master | time="2025-12-19T12:50:13+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:13] WRITE #45 GAGAL -> redis-master | time="2025-12-19T12:50:13+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:14] WRITE #46 GAGAL -> redis-master | time="2025-12-19T12:50:14+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:14] WRITE #47 GAGAL -> redis-master | time="2025-12-19T12:50:14+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:18] WRITE #48 GAGAL -> redis-master | time="2025-12-19T12:50:18+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:18] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:18] WRITE #49 GAGAL -> redis-master | time="2025-12-19T12:50:18+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:19] WRITE #50 GAGAL -> redis-master | time="2025-12-19T12:50:19+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:20] WRITE #51 GAGAL -> redis-master | time="2025-12-19T12:50:20+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:20] WRITE #52 GAGAL -> redis-master | time="2025-12-19T12:50:20+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:23] WRITE #53 GAGAL -> redis-master | time="2025-12-19T12:50:23+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:23] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:24] WRITE #54 GAGAL -> redis-master | time="2025-12-19T12:50:24+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:24] WRITE #55 GAGAL -> redis-master | time="2025-12-19T12:50:24+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:25] WRITE #56 GAGAL -> redis-master | time="2025-12-19T12:50:25+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:26] WRITE #57 GAGAL -> redis-master | time="2025-12-19T12:50:26+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:28] WRITE #58 GAGAL -> redis-master | time="2025-12-19T12:50:28+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:28] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:29] WRITE #59 GAGAL -> redis-master | time="2025-12-19T12:50:29+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:29] WRITE #60 GAGAL -> redis-master | time="2025-12-19T12:50:29+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:30] WRITE #61 GAGAL -> redis-master | time="2025-12-19T12:50:30+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:31] WRITE #62 GAGAL -> redis-master | time="2025-12-19T12:50:31+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:33] WRITE #63 GAGAL -> redis-master | time="2025-12-19T12:50:33+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:33] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:34] WRITE #64 GAGAL -> redis-master | time="2025-12-19T12:50:34+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:34] WRITE #65 GAGAL -> redis-master | time="2025-12-19T12:50:34+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:35] WRITE #66 GAGAL -> redis-master | time="2025-12-19T12:50:35+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:36] WRITE #67 GAGAL -> redis-master | time="2025-12-19T12:50:36+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:39] WRITE #68 GAGAL -> redis-master | time="2025-12-19T12:50:39+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:39] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:40] WRITE #69 GAGAL -> redis-master | time="2025-12-19T12:50:40+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:40] WRITE #70 GAGAL -> redis-master | time="2025-12-19T12:50:40+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:41] WRITE #71 GAGAL -> redis-master | time="2025-12-19T12:50:41+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:42] WRITE #72 GAGAL -> redis-master | time="2025-12-19T12:50:42+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:44] WRITE #73 GAGAL -> redis-master | time="2025-12-19T12:50:44+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:44] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:44] WRITE #74 GAGAL -> redis-master | time="2025-12-19T12:50:44+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:45] WRITE #75 GAGAL -> redis-master | time="2025-12-19T12:50:45+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:46] WRITE #76 GAGAL -> redis-master | time="2025-12-19T12:50:45+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:46] WRITE #77 GAGAL -> redis-master | time="2025-12-19T12:50:46+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:49] WRITE #78 GAGAL -> redis-master | time="2025-12-19T12:50:49+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:49] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:49] WRITE #79 GAGAL -> redis-master | time="2025-12-19T12:50:49+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:50] WRITE #80 GAGAL -> redis-master | time="2025-12-19T12:50:50+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:51] WRITE #81 GAGAL -> redis-master | time="2025-12-19T12:50:51+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:51] WRITE #82 GAGAL -> redis-master | time="2025-12-19T12:50:51+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:54] WRITE #83 GAGAL -> redis-master | time="2025-12-19T12:50:54+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:54] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:50:54] WRITE #84 GAGAL -> redis-master | time="2025-12-19T12:50:54+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:55] WRITE #85 GAGAL -> redis-master | time="2025-12-19T12:50:55+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:56] WRITE #86 GAGAL -> redis-master | time="2025-12-19T12:50:55+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:56] WRITE #87 GAGAL -> redis-master | time="2025-12-19T12:50:56+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:50:57] WRITE #88 GAGAL -> redis-master | time="2025-12-19T12:50:57+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:00] WRITE #89 GAGAL -> redis-master | time="2025-12-19T12:51:00+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:00] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:51:00] WRITE #90 GAGAL -> redis-master | time="2025-12-19T12:51:00+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:01] WRITE #91 GAGAL -> redis-master | time="2025-12-19T12:51:01+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:02] WRITE #92 GAGAL -> redis-master | time="2025-12-19T12:51:02+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:02] WRITE #93 GAGAL -> redis-master | time="2025-12-19T12:51:02+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:05] WRITE #94 GAGAL -> redis-master | time="2025-12-19T12:51:05+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:05] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:51:05] WRITE #95 GAGAL -> redis-master | time="2025-12-19T12:51:05+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:06] WRITE #96 GAGAL -> redis-master | time="2025-12-19T12:51:06+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:06] WRITE #97 GAGAL -> redis-master | time="2025-12-19T12:51:06+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:07] WRITE #98 GAGAL -> redis-master | time="2025-12-19T12:51:07+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running
+[2025-12-19T12:51:07] WRITE #99 GAGAL -> redis-master | time="2025-12-19T12:51:07+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+service "redis-client" is not running

@@ -1,0 +1,132 @@
+[2025-12-19T12:59:08] Menjalankan skenario 2 dengan interval workload 0.20s.
+[2025-12-19T12:59:08] Menunggu quorum Sentinel (ckquorum)...
+[2025-12-19T12:59:08] Sentinel quorum siap: OK 3 usable Sentinels. Quorum and failover authorization can be reached
+[2025-12-19T12:59:08] Workload berjalan. Akan memicu failure dalam 10.0 detik.
+[2025-12-19T12:59:09] WRITE #1 OK -> redis-master
+[2025-12-19T12:59:09] WRITE #2 OK -> redis-master
+[2025-12-19T12:59:10] WRITE #3 OK -> redis-master
+[2025-12-19T12:59:11] WRITE #4 OK -> redis-master
+[2025-12-19T12:59:11] WRITE #5 OK -> redis-master
+[2025-12-19T12:59:12] WRITE #6 OK -> redis-master
+[2025-12-19T12:59:13] WRITE #7 OK -> redis-master
+[2025-12-19T12:59:13] WRITE #8 OK -> redis-master
+[2025-12-19T12:59:14] WRITE #9 OK -> redis-master
+[2025-12-19T12:59:14] WRITE #10 OK -> redis-master
+[2025-12-19T12:59:15] WRITE #11 OK -> redis-master
+[2025-12-19T12:59:16] WRITE #12 OK -> redis-master
+[2025-12-19T12:59:16] WRITE #13 OK -> redis-master
+[2025-12-19T12:59:17] WRITE #14 OK -> redis-master
+[2025-12-19T12:59:18] WRITE #15 OK -> redis-master
+[2025-12-19T12:59:18] WRITE #16 OK -> redis-master
+[2025-12-19T12:59:18] Mematikan redis-master untuk memicu failover...
+[2025-12-19T12:59:19] WRITE #17 GAGAL -> redis-master | time="2025-12-19T12:59:19+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Error: Server closed the connection
+[2025-12-19T12:59:20] Menunggu Sentinel memilih master baru...
+[2025-12-19T12:59:29] WRITE #18 GAGAL -> redis-master | time="2025-12-19T12:59:20+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:59:31] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:59:37] WRITE #19 GAGAL -> redis-master | time="2025-12-19T12:59:29+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:59:40] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:59:49] WRITE #20 GAGAL -> redis-master | time="2025-12-19T12:59:40+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T12:59:56] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T12:59:59] WRITE #21 GAGAL -> redis-master | time="2025-12-19T12:59:50+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:01] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:00:10] WRITE #22 GAGAL -> redis-master | time="2025-12-19T13:00:01+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:18] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:00:20] WRITE #23 GAGAL -> redis-master | time="2025-12-19T13:00:11+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:29] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:00:30] WRITE #24 GAGAL -> redis-master | time="2025-12-19T13:00:20+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:38] WRITE #25 GAGAL -> redis-master | time="2025-12-19T13:00:30+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:45] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:00:48] WRITE #26 GAGAL -> redis-master | time="2025-12-19T13:00:39+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:00:55] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:00:59] WRITE #27 GAGAL -> redis-master | time="2025-12-19T13:00:51+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:01:06] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:01:09] WRITE #28 GAGAL -> redis-master | time="2025-12-19T13:01:00+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:01:11] Belum menemukan master baru, Sentinel masih melakukan failover...
+[2025-12-19T13:01:19] WRITE #29 GAGAL -> redis-master | time="2025-12-19T13:01:11+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:01:27] Sentinel menunjuk redis-replica-2 sebagai master baru.
+[2025-12-19T13:01:27] Menunggu workload berjalan selama 10.0 detik setelah failover.
+[2025-12-19T13:01:30] WRITE #30 GAGAL -> redis-master | time="2025-12-19T13:01:20+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T13:01:30] WRITE #31 sukses lagi -> redis-replica-2 (pemulihan 132.13s)
+[2025-12-19T13:01:31] WRITE #32 OK -> redis-replica-2
+[2025-12-19T13:01:32] WRITE #33 OK -> redis-replica-2
+[2025-12-19T13:01:32] WRITE #34 OK -> redis-replica-2
+[2025-12-19T13:01:33] WRITE #35 OK -> redis-replica-2
+[2025-12-19T13:01:34] WRITE #36 OK -> redis-replica-2
+[2025-12-19T13:01:34] WRITE #37 OK -> redis-replica-2
+[2025-12-19T13:01:35] WRITE #38 OK -> redis-replica-2
+[2025-12-19T13:01:35] WRITE #39 OK -> redis-replica-2
+[2025-12-19T13:01:36] WRITE #40 OK -> redis-replica-2
+[2025-12-19T13:01:37] WRITE #41 OK -> redis-replica-2
+[2025-12-19T13:01:37] --- Ringkasan ---
+[2025-12-19T13:01:37] Master baru: redis-replica-2
+[2025-12-19T13:01:37] Waktu dari master mati ke write pulih: 132.13 detik
+[2025-12-19T13:01:37] Lag antara failure trigger dan WRITE pertama yang gagal: 0.84 detik
+[2025-12-19T13:01:37] Durasi failover menurut Sentinel: 128.46 detik
+[2025-12-19T13:01:37] 
+--- Cuplikan log sentinel-1 ---
+[2025-12-19T13:01:37] sentinel-1  | 1:X 19 Dec 2025 06:00:50.613 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:51.563 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:54.408 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:55.318 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:55.561 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:56.552 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:00:59.352 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:00.336 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:00.659 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:02.588 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:04.425 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:06.363 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:06.648 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:08.582 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:10.375 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:11.263 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:12.625 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:13.551 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:15.363 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:16.249 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:17.670 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:18.552 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:20.356 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:21.278 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:22.579 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:22.890 # +new-epoch 2
+sentinel-1  | 1:X 19 Dec 2025 06:01:22.890 # +try-failover master mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:22.945 * Sentinel new configuration saved on disk
+sentinel-1  | 1:X 19 Dec 2025 06:01:22.945 # +vote-for-leader 91e7677e452cacc41cb35877ca6dba79e90267b3 2
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.019 # 5e9a2bc5b518c61fa06e5a638a31d30c60c828d9 voted for 91e7677e452cacc41cb35877ca6dba79e90267b3 2
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.020 # b01dc86761d454325271614d54683caa86ba0563 voted for 91e7677e452cacc41cb35877ca6dba79e90267b3 2
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.063 # +elected-leader master mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.063 # +failover-state-select-slave master mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.135 # +selected-slave slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.135 * +failover-state-send-slaveof-noone slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.226 * +failover-state-wait-promotion slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:23.599 # -sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:25.304 # +sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.282 * Sentinel new configuration saved on disk
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.282 # +promoted-slave slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.282 # +failover-state-reconf-slaves master mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.282 * +slave-reconf-sent slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.283 # -sdown slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.636 # +sdown slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.694 # +failover-end master mymaster 172.28.0.10 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.695 # +switch-master mymaster 172.28.0.10 6379 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.695 * +slave slave 172.28.0.11:6379 172.28.0.11 6379 @ mymaster 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.695 * +slave slave 172.28.0.10:6379 172.28.0.10 6379 @ mymaster 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 06:01:27.730 * Sentinel new configuration saved on disk
+sentinel-1  | 1:X 19 Dec 2025 06:01:30.725 # +sdown slave 172.28.0.10:6379 172.28.0.10 6379 @ mymaster 172.28.0.12 6379
+
+[2025-12-19T13:01:37] Log lengkap tersimpan di C:\Users\Rafael Jonathan\Desktop\redis-replication\failover-sentinel\logs\scenario2-20251219-125908.log

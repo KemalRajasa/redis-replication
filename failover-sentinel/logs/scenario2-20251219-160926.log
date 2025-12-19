@@ -1,0 +1,49 @@
+[2025-12-19T16:09:26] Menjalankan skenario 2 dengan interval workload 0.20s.
+[2025-12-19T16:09:26] Menunggu quorum Sentinel (ckquorum)...
+[2025-12-19T16:09:27] Sentinel quorum siap: OK 3 usable Sentinels. Quorum and failover authorization can be reached
+[2025-12-19T16:09:27] Workload berjalan. Akan memicu failure dalam 10.0 detik.
+[2025-12-19T16:09:37] Mematikan redis-master untuk memicu failover...
+[2025-12-19T16:09:37] WRITE #1 GAGAL -> redis-master | time="2025-12-19T16:09:27+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T16:09:37] Menunggu Sentinel memilih master baru...
+[2025-12-19T16:09:38] Sentinel menunjuk redis-replica-1 sebagai master baru.
+[2025-12-19T16:09:38] Menunggu workload berjalan selama 10.0 detik setelah failover.
+[2025-12-19T16:09:44] WRITE #2 GAGAL -> redis-master | time="2025-12-19T16:09:38+07:00" level=warning msg="C:\\Users\\Rafael Jonathan\\Desktop\\redis-replication\\failover-sentinel\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Could not connect to Redis at redis-master:6379: Name has no usable address
+[2025-12-19T16:09:45] WRITE #3 sukses lagi -> redis-replica-1 (pemulihan 7.99s)
+[2025-12-19T16:09:45] WRITE #4 OK -> redis-replica-1
+[2025-12-19T16:09:46] WRITE #5 OK -> redis-replica-1
+[2025-12-19T16:09:47] WRITE #6 OK -> redis-replica-1
+[2025-12-19T16:09:47] WRITE #7 OK -> redis-replica-1
+[2025-12-19T16:09:48] WRITE #8 OK -> redis-replica-1
+[2025-12-19T16:09:48] --- Ringkasan ---
+[2025-12-19T16:09:48] Master baru: redis-replica-1
+[2025-12-19T16:09:48] Waktu dari master mati ke write pulih: 7.99 detik
+[2025-12-19T16:09:48] Lag antara failure trigger dan WRITE pertama yang gagal: 0.42 detik
+[2025-12-19T16:09:48] Durasi failover menurut Sentinel: 1.20 detik
+[2025-12-19T16:09:48] 
+--- Cuplikan log sentinel-1 ---
+[2025-12-19T16:09:48] sentinel-1  | 1:X 19 Dec 2025 09:05:17.261 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.261 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=1, just started
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.261 # Configuration loaded
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.262 * monotonic clock: POSIX clock_gettime
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.263 * Running mode=sentinel, port=26379.
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.266 # Sentinel ID is 91e7677e452cacc41cb35877ca6dba79e90267b3
+sentinel-1  | 1:X 19 Dec 2025 09:05:17.266 # +monitor master mymaster 172.28.0.12 6379 quorum 2
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.302 # +sdown master mymaster 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.386 # +odown master mymaster 172.28.0.12 6379 #quorum 3/2
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.386 # +new-epoch 3
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.386 # +try-failover master mymaster 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.450 * Sentinel new configuration saved on disk
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.450 # +vote-for-leader 91e7677e452cacc41cb35877ca6dba79e90267b3 3
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.451 # b01dc86761d454325271614d54683caa86ba0563 voted for b01dc86761d454325271614d54683caa86ba0563 3
+sentinel-1  | 1:X 19 Dec 2025 09:05:40.533 # 5e9a2bc5b518c61fa06e5a638a31d30c60c828d9 voted for b01dc86761d454325271614d54683caa86ba0563 3
+sentinel-1  | 1:X 19 Dec 2025 09:05:41.564 # +config-update-from sentinel b01dc86761d454325271614d54683caa86ba0563 172.28.0.21 26379 @ mymaster 172.28.0.12 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:41.565 # +switch-master mymaster 172.28.0.12 6379 172.28.0.11 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:41.565 * +slave slave 172.28.0.10:6379 172.28.0.10 6379 @ mymaster 172.28.0.11 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:41.565 * +slave slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.11 6379
+sentinel-1  | 1:X 19 Dec 2025 09:05:41.607 * Sentinel new configuration saved on disk
+sentinel-1  | 1:X 19 Dec 2025 09:06:41.826 * +fix-slave-config slave 172.28.0.12:6379 172.28.0.12 6379 @ mymaster 172.28.0.11 6379
+sentinel-1  | 1:X 19 Dec 2025 09:07:03.307 # +sdown slave 172.28.0.10:6379 172.28.0.10 6379 @ mymaster 172.28.0.11 6379
+
+[2025-12-19T16:09:48] Log lengkap tersimpan di C:\Users\Rafael Jonathan\Desktop\redis-replication\failover-sentinel\logs\scenario2-20251219-160926.log
